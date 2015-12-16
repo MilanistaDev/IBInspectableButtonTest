@@ -12,6 +12,7 @@
 		FD5FD92A1C21AFE100815DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5FD9281C21AFE100815DE1 /* Main.storyboard */; };
 		FD5FD92C1C21AFE100815DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5FD92B1C21AFE100815DE1 /* Assets.xcassets */; };
 		FD5FD92F1C21AFE100815DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5FD92D1C21AFE100815DE1 /* LaunchScreen.storyboard */; };
+		FD5FD9371C21B08B00815DE1 /* IBDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FD9361C21B08B00815DE1 /* IBDesignableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD5FD92B1C21AFE100815DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD5FD92E1C21AFE100815DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD5FD9301C21AFE100815DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5FD9361C21B08B00815DE1 /* IBDesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FD5FD9241C21AFE100815DE1 /* AppDelegate.swift */,
 				FD5FD9261C21AFE100815DE1 /* ViewController.swift */,
+				FD5FD9361C21B08B00815DE1 /* IBDesignableButton.swift */,
 				FD5FD9281C21AFE100815DE1 /* Main.storyboard */,
 				FD5FD92B1C21AFE100815DE1 /* Assets.xcassets */,
 				FD5FD92D1C21AFE100815DE1 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5FD9371C21B08B00815DE1 /* IBDesignableButton.swift in Sources */,
 				FD5FD9271C21AFE100815DE1 /* ViewController.swift in Sources */,
 				FD5FD9251C21AFE100815DE1 /* AppDelegate.swift in Sources */,
 			);
@@ -250,6 +254,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIButtonIBDesignableTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.UIButtonIBDesignableTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIButtonIBDesignableTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.UIButtonIBDesignableTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +292,7 @@
 				FD5FD9351C21AFE100815DE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
